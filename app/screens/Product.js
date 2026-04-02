@@ -2,14 +2,14 @@ import { View, Text, StyleSheet, Button } from 'react-native'
 
 export const Product = ({ navigation }) => {
     return <View style={styles.container}>
-        <Text style={styles.title}>Bienvenidos a mi tienda, soy Joanthan</Text>
+        <Text style={styles.title}>Bienvenidos a mi tienda, soy Jonathan</Text>
         <Text style={styles.product1}>Manzanas</Text>
         <Text style={styles.product2}>Peras</Text>
         <Text style={styles.product3}>Naranjas</Text>
         <Button
             title='HOME'
             onPress={() => {
-                navigation.navigate('WelcomeNav');
+                navigation.navigate('WellcomeJonathan');
             }}
         />
     </View>

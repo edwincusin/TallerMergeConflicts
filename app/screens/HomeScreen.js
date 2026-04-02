@@ -23,7 +23,7 @@ export const Home = ({ navigation }) => {
                 color={"red"}
                 title='PRODUCTOS'
                 onPress={() => {
-                    navigation.navigate('ProductNav');
+                    navigation.navigate('ProductNavigation');
                 }}
             />
 
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     boton1: {
 
         marginRight: 60,
-        
+
 
     },
 });
