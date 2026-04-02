@@ -2,13 +2,15 @@ import { View, Text, StyleSheet, Button } from 'react-native'
 
 export const Home = ({ navigation }) => {
     return <View style={styles.container}>
-        <Text>HOME</Text>
+        <Text>Bienvenido a mi aplicación, soy EDWIN CUSIN</Text>
+        <Text>Aprendiendo React Native con KrakeDev</Text>
 
         <View style={styles.botones}>
 
             <View style={styles.boton1}>
                 <Button
                     title='CONTACTS'
+                    color={"red"}
                     onPress={() => {
                         navigation.navigate('ContactsNav');
                     }}
@@ -18,6 +20,7 @@ export const Home = ({ navigation }) => {
 
 
             <Button
+                color={"red"}
                 title='PRODUCTOS'
                 onPress={() => {
                     navigation.navigate('ProductNav');
@@ -33,7 +36,7 @@ export const Home = ({ navigation }) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: '#04ff3b',
         alignItems: 'center',
         justifyContent: 'center',
     },
@@ -47,6 +50,7 @@ const styles = StyleSheet.create({
     boton1: {
 
         marginRight: 60,
+        
 
     },
 });
